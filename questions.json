@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Which Azure service provides automated ML capabilities to quickly build models without deep ML expertise?",
+    "options": ["Azure Machine Learning AutoML", "Azure Synapse Analytics", "Azure Cognitive Search", "Azure Databricks"],
+    "answer": 0,
+    "explanation": "Azure Machine Learning AutoML automates model selection, training, and tuning for non-experts."
+  },
+  {
+    "question": "In reinforcement learning, what is the role of the 'reward function'?",
+    "options": ["Stores raw data", "Guides the agent by providing feedback on actions", "Splits data into training and test sets", "Defines the model architecture"],
+    "answer": 1,
+    "explanation": "The reward function provides feedback to the agent, guiding it toward optimal behavior."
+  },
+  {
+    "question": "Which Azure service would you use to build a custom image classification model with minimal code?",
+    "options": ["Azure Custom Vision", "Azure Translator", "Azure Cognitive Search", "Azure Bot Service"],
+    "answer": 0,
+    "explanation": "Azure Custom Vision allows developers to train custom image classifiers with minimal effort."
+  },
+  {
+    "question": "What is the main difference between supervised and unsupervised learning?",
+    "options": ["Supervised uses labeled data, unsupervised uses unlabeled data", "Supervised requires reinforcement, unsupervised does not", "Supervised is faster, unsupervised is slower", "Supervised is only for text, unsupervised is only for images"],
+    "answer": 0,
+    "explanation": "Supervised learning uses labeled datasets, while unsupervised learning finds patterns in unlabeled data."
+  },
+  {
+    "question": "Which principle of Responsible AI ensures that AI systems are understandable and decisions can be explained?",
+    "options": ["Transparency", "Fairness", "Inclusiveness", "Reliability"],
+    "answer": 0,
+    "explanation": "Transparency ensures AI systems are understandable and their decisions can be explained."
+  },
+  {
+    "question": "Which Azure service provides speech-to-text and text-to-speech capabilities?",
+    "options": ["Azure Speech Service", "Azure Translator", "Azure Text Analytics", "Azure Cognitive Search"],
+    "answer": 0,
+    "explanation": "Azure Speech Service supports speech recognition and synthesis for conversational AI."
+  },
+  {
+    "question": "What is the purpose of model evaluation metrics such as precision and recall?",
+    "options": ["To measure model performance on classification tasks", "To store training data", "To define neural network layers", "To encrypt sensitive data"],
+    "answer": 0,
+    "explanation": "Precision and recall are used to evaluate classification model performance."
+  },
+  {
+    "question": "Which Azure service allows you to orchestrate AI workflows with drag-and-drop components?",
+    "options": ["Azure Machine Learning Designer", "Azure Functions", "Azure Cognitive Services", "Azure Synapse Studio"],
+    "answer": 0,
+    "explanation": "Azure ML Designer provides a drag-and-drop interface for building ML workflows."
+  },
+  {
+    "question": "Which type of machine learning is used when an agent interacts with an environment to maximize cumulative reward?",
+    "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Transfer learning"],
+    "answer": 2,
+    "explanation": "Reinforcement learning trains agents to maximize rewards through trial and error."
+  },
+  {
+    "question": "Which Azure service would you use to extract key phrases and sentiment from text?",
+    "options": ["Azure Text Analytics", "Azure Translator", "Azure Cognitive Search", "Azure Bot Service"],
+    "answer": 0,
+    "explanation": "Azure Text Analytics provides sentiment analysis, key phrase extraction, and named entity recognition."
+  }
+]

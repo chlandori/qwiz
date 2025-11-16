@@ -1,0 +1,124 @@
+/* style.css - Retro ASCII vibe */
+
+/* ================================
+   Global Styles
+   ================================ */
+body {
+  background-color: #0d0d0d;        /* deep black background */
+  color: #33ff33;                   /* classic green terminal text */
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ================================
+   Headings
+   ================================ */
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #00ffcc;                   /* cyan glow */
+  text-shadow: 0 0 8px #00ffcc;
+  margin-bottom: 20px;
+}
+
+/* ================================
+   Quiz Content
+   ================================ */
+#quiz p {
+  font-weight: bold;
+  margin-top: 15px;
+  text-shadow: 0 0 5px #33ff33;
+}
+
+label {
+  display: block;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  accent-color: #ff00ff;            /* magenta retro accent */
+}
+
+/* ================================
+   Buttons
+   ================================ */
+button {
+  display: block;
+  margin: 20px auto;                /* centers horizontally */
+  background-color: #1a1a1a;
+  color: #ffcc00;                   /* amber retro highlight */
+  border: 2px solid #ffcc00;
+  padding: 10px 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  cursor: pointer;
+  text-shadow: 0 0 5px #ffcc00;
+}
+
+button:hover {
+  background-color: #333333;
+  color: #ffffff;
+  border-color: #ffffff;
+  text-shadow: 0 0 8px #ffffff;
+}
+
+/* ================================
+   Containers
+   ================================ */
+.container {
+  max-width: 800px;
+  margin: auto;
+  border: 2px dashed #33ff33;       /* ASCII-style box */
+  padding: 20px;
+  background-color: #111111;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;          /* centers buttons horizontally */
+  gap: 10px;                        /* spacing between buttons */
+  margin-top: 20px;
+}
+
+/* ================================
+   Score Panel
+   ================================ */
+#score-panel {
+  font-size: 1.2em;
+  color: #ffcc00;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #ffcc00;
+}
+
+/* ================================
+   Welcome Screen
+   ================================ */
+#welcome-screen {
+  text-align: center;
+  margin-top: 50px;
+  color: #00ffcc;
+  text-shadow: 0 0 8px #00ffcc;
+}
+
+#welcome-screen button {
+  margin-top: 20px;
+  background-color: #1a1a1a;
+  color: #ffcc00;
+  border: 2px solid #ffcc00;
+  padding: 10px 20px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  text-shadow: 0 0 5px #ffcc00;
+}
+
+
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666666;
+}
