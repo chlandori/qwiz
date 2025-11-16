@@ -9,10 +9,26 @@
 </head>
 <body>
     <h1>AI-900 Practice Quiz</h1>
-    <div id="quiz-container"></div>
-    <div class="button-container">
-        <button id="load-button" type="button" onclick="loadBatch()">Load Next Question Batch</button>
+
+  <!-- Welcome Screen -->
+  <div id="welcome-screen">
+    <p>👋 Welcome to your AI-900 practice quiz!</p>
+    <p>You’ll get questions in batches of 5. Track your score as you go.</p>
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <!-- Quiz + Score Panel (hidden initially) -->
+  <div id="quiz-area" style="display:none;">
+    <div id="score-panel">
+      Score: <span id="score">0</span> / <span id="total">0</span>
     </div>
+    <div id="quiz"></div>
+    <div class="button-container">
+      <button onclick="submitAnswers()">Submit Answers</button>
+      <button onclick="loadBatch()">Next 5 Questions</button>
+    </div>
+  </div>
+
 </body>
 <footer>© 2025 AI-900 Practice Quiz by C.Landry</footer>
 </html>
