@@ -16,7 +16,7 @@ It continuously serves batches of 5 multiple‑choice questions, tracks your sco
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/ai900-quiz-app.git
+git clone https://github.com/chlandori/ai900-quiz-app.git
 cd ai900-quiz-app
 ```
 
